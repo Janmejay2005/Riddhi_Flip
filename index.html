@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riddhi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Decision Maker</h1>
+        <p>Enter your options and click the coin!</p>
+    </div>
+
+    <div class="inputs">
+        <input type="text" id="sideA" value="Heads" placeholder="Side 1">
+        <input type="text" id="sideB" value="Tails" placeholder="Side 2">
+    </div>
+
+    <div class="coin-container" onclick="flipCoin()">
+        <div id="coin">
+            <div class="face heads" id="displayA">Heads</div>
+            <div class="face tails" id="displayB">Tails</div>
+        </div>
+    </div>
+
+    <div class="status" id="statusText">Click the coin to flip!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
